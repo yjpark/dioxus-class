@@ -1,7 +1,7 @@
 use std::fmt::Display;
 use std::ops::Add;
 use dioxus::prelude::*;
-use dioxus::dioxus_core::AttributeValue;
+use dioxus::dioxus_core::{AttributeValue, IntoAttributeValue};
 
 /// Class struct is just a wrapper of `Vec<String>`
 ///
