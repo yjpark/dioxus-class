@@ -20,5 +20,5 @@ install-dioxus-cli:
     @just _install_cargo_tool dioxus-cli
 
 _install_cargo_tool *ARGS:
-    cargo install --locked --root {{ project_root }} {{ARGS}}
+    cargo binstall --locked --root {{ project_root }} {{ARGS}}
 

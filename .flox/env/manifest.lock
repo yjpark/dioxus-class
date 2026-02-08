@@ -1,0 +1,531 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "cargo-binstall": {
+        "pkg-path": "cargo-binstall"
+      },
+      "omnix": {
+        "pkg-path": "omnix"
+      },
+      "openssh": {
+        "pkg-path": "openssh"
+      },
+      "pkg-config": {
+        "pkg-path": "pkg-config"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {}
+  },
+  "packages": [
+    {
+      "attr_path": "cargo-binstall",
+      "broken": false,
+      "derivation": "/nix/store/xcy0ha7i8yvwgci4in9js489gvb36b3d-cargo-binstall-1.17.4.drv",
+      "description": "Tool for installing rust binaries as an alternative to building from source",
+      "install_id": "cargo-binstall",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "cargo-binstall-1.17.4",
+      "pname": "cargo-binstall",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T04:35:54.557491Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/h73y3ghrfacdj3nbbphiiicpvc8iwv2d-cargo-binstall-1.17.4"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo-binstall",
+      "broken": false,
+      "derivation": "/nix/store/1rqjpnj280f8p00prw3903vcqwfqpjbr-cargo-binstall-1.17.4.drv",
+      "description": "Tool for installing rust binaries as an alternative to building from source",
+      "install_id": "cargo-binstall",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "cargo-binstall-1.17.4",
+      "pname": "cargo-binstall",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:05:22.881187Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/clzlxl4zgp147dg1b5b3bvpnc0gyfmbl-cargo-binstall-1.17.4"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo-binstall",
+      "broken": false,
+      "derivation": "/nix/store/s52lm6ysnd9bm6iarybalp73d8720fsf-cargo-binstall-1.17.4.drv",
+      "description": "Tool for installing rust binaries as an alternative to building from source",
+      "install_id": "cargo-binstall",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "cargo-binstall-1.17.4",
+      "pname": "cargo-binstall",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:33:32.763848Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vnips31dpsbikj853p2fscqk0d8129ff-cargo-binstall-1.17.4"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "cargo-binstall",
+      "broken": false,
+      "derivation": "/nix/store/5x2lv8mk98wgbrbcw1ymw0f9dpdg5m4r-cargo-binstall-1.17.4.drv",
+      "description": "Tool for installing rust binaries as an alternative to building from source",
+      "install_id": "cargo-binstall",
+      "license": "GPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "cargo-binstall-1.17.4",
+      "pname": "cargo-binstall",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T06:05:45.732123Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.17.4",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/qfqa1x6n5xb5aal8cb4inf6zv09lm3nf-cargo-binstall-1.17.4"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "omnix",
+      "broken": false,
+      "derivation": "/nix/store/41k0xb2xszsqbzbanvv4nl570cdn2f2n-omnix-1.3.2.drv",
+      "description": "Nix companion to improve developer experience",
+      "install_id": "omnix",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "omnix-1.3.2",
+      "pname": "omnix",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T04:36:22.438937Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/sicgcr3as24f276g70h5094ca1pn06j7-omnix-1.3.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "omnix",
+      "broken": false,
+      "derivation": "/nix/store/193pzxx9xd59jlr27xz8if9hxnli5cm5-omnix-1.3.2.drv",
+      "description": "Nix companion to improve developer experience",
+      "install_id": "omnix",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "omnix-1.3.2",
+      "pname": "omnix",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:06:04.800438Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/ij82aj6015rn92dw3caw0d9j9rwyab5z-omnix-1.3.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "omnix",
+      "broken": false,
+      "derivation": "/nix/store/krqj7p21a9gj74zhz8rh8rymnlxzxwmp-omnix-1.3.2.drv",
+      "description": "Nix companion to improve developer experience",
+      "install_id": "omnix",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "omnix-1.3.2",
+      "pname": "omnix",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:34:00.706359Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/7bqp20cya1q275wqrbyy2dnyd4x2658s-omnix-1.3.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "omnix",
+      "broken": false,
+      "derivation": "/nix/store/wmja3rr592hvkh10f28yfspz1bjxnvdm-omnix-1.3.2.drv",
+      "description": "Nix companion to improve developer experience",
+      "install_id": "omnix",
+      "license": "AGPL-3.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "omnix-1.3.2",
+      "pname": "omnix",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T06:06:31.626509Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "1.3.2",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/imzmganq3zy6qjp3wx720fy1xnm5ckgb-omnix-1.3.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openssh",
+      "broken": false,
+      "derivation": "/nix/store/h4j3inl2nbk1k39knbhpkh1y0fs128ql-openssh-10.2p1.drv",
+      "description": "Implementation of the SSH protocol",
+      "install_id": "openssh",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "openssh-10.2p1",
+      "pname": "openssh",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T04:36:22.764783Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.2p1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/fj8y6y356y2h39yxjxfgfzjb02vgandj-openssh-10.2p1-dev",
+        "man": "/nix/store/1fjkmpi7aq3wm8mbiz9rjilri7ma1knq-openssh-10.2p1-man",
+        "out": "/nix/store/caimks2d47fksvy7yhjaz34dry18ib09-openssh-10.2p1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openssh",
+      "broken": false,
+      "derivation": "/nix/store/prb5mzbfgk2waks3jvhgbb7j979smsb9-openssh-10.2p1.drv",
+      "description": "Implementation of the SSH protocol",
+      "install_id": "openssh",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "openssh-10.2p1",
+      "pname": "openssh",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:06:05.432196Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.2p1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/sqdlnxzhxbldan5d3037hr76idgv6gqm-openssh-10.2p1-dev",
+        "man": "/nix/store/civ3bmy8vmbwdx4mjg5mhmkbhs97zwvj-openssh-10.2p1-man",
+        "out": "/nix/store/sxzcrcqf4dl3ap4r0a8hrkszwx2zbfj9-openssh-10.2p1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openssh",
+      "broken": false,
+      "derivation": "/nix/store/ayyd0q3py49fg8mmysiwlndwcjs9nkqi-openssh-10.2p1.drv",
+      "description": "Implementation of the SSH protocol",
+      "install_id": "openssh",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "openssh-10.2p1",
+      "pname": "openssh",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:34:01.033142Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.2p1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/mp7b6p1dn367hlm0m413j6h7jbh3l2s1-openssh-10.2p1-dev",
+        "man": "/nix/store/9pbry83qsj2l7mp8wcnwlad6hfy7m508-openssh-10.2p1-man",
+        "out": "/nix/store/xwvp9ay552ig2ypdbmpd79wvwjc2q9mj-openssh-10.2p1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "openssh",
+      "broken": false,
+      "derivation": "/nix/store/cimzs4r9i0279acc7sjqs6bnrlnq2hr1-openssh-10.2p1.drv",
+      "description": "Implementation of the SSH protocol",
+      "install_id": "openssh",
+      "license": "BSD-2-Clause",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "openssh-10.2p1",
+      "pname": "openssh",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T06:06:32.297720Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "10.2p1",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "dev": "/nix/store/cccwwgpkf42pxif5pvdzhr16jiirwjnv-openssh-10.2p1-dev",
+        "man": "/nix/store/942yj3apvf8r0xs8f6qh061cdry5dxwc-openssh-10.2p1-man",
+        "out": "/nix/store/50jp3q2sjgw4shh0sgx9il1h005fpp8s-openssh-10.2p1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/199i10qz5sxlhlwnmwyq7cz7z07472gs-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T04:36:31.032655Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/ciqhlvhb40flzfq406p6ds9isk5d86z4-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/znrxsr46fxqmahinhld0gm3w9wn36w2n-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/h1zybrn86ifpb32xslaaf611h06d3vrn-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/i927l7fcarg683k87bgj1vd4nf98hws1-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:06:16.518803Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/nd285jjxkxhsb19d5asrlxy0b8zzgd1i-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/p3hqvabkkwxm4qdyib2avgx9i0l1snag-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/acidxar7778cz6rb9xa9plhjpqsxap2k-pkg-config-wrapper-0.29.2"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/nj2rj4wjny7ffz8asgwgvw3b1wwh9yg2-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:34:09.495231Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/5llrmzx5vpd0hj8cj6c0af2c3vzl5g2a-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/m3xvrpz0p7nnx6ck748ryyhvj50hjjz5-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/hxzn7zygy0lxw4s89i86wsa5k0nhwjwk-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "pkg-config",
+      "broken": false,
+      "derivation": "/nix/store/34y7xczwns3fcf35pjj6irgkjrm6kyx6-pkg-config-wrapper-0.29.2.drv",
+      "description": "Tool that allows packages to find out information about other packages (wrapper script)",
+      "install_id": "pkg-config",
+      "license": "GPL-2.0-or-later",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "pkg-config-wrapper-0.29.2",
+      "pname": "pkg-config",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T06:06:44.011645Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.29.2",
+      "outputs_to_install": [
+        "man",
+        "out",
+        "out"
+      ],
+      "outputs": {
+        "doc": "/nix/store/a29fiybw29zbd9awm6jdifpw9l5mrg1x-pkg-config-wrapper-0.29.2-doc",
+        "man": "/nix/store/0dslh0d5kbgh40208jlf03n0zkjyc7cl-pkg-config-wrapper-0.29.2-man",
+        "out": "/nix/store/rvp7qlpf5jqvdckjy1afjb6aha6j8dxg-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
