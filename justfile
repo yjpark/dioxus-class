@@ -1,3 +1,5 @@
+project_root := justfile_directory()
+
 build:
     cargo build
 
@@ -15,6 +17,8 @@ serve-doc:
     simple-http-server -p 8001 --index --nocache target/doc
 
 install-dioxus-cli:
-    cargo install dioxus-cli
+    @just _install_cargo_tool dioxus-cli
 
+_install_cargo_tool *ARGS:
+    cargo install --locked --root {{ project_root }} {{ARGS}}
 
