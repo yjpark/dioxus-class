@@ -14,6 +14,9 @@
       },
       "pkg-config": {
         "pkg-path": "pkg-config"
+      },
+      "simple-http-server": {
+        "pkg-path": "simple-http-server"
       }
     },
     "hook": {},
@@ -522,6 +525,126 @@
         "doc": "/nix/store/a29fiybw29zbd9awm6jdifpw9l5mrg1x-pkg-config-wrapper-0.29.2-doc",
         "man": "/nix/store/0dslh0d5kbgh40208jlf03n0zkjyc7cl-pkg-config-wrapper-0.29.2-man",
         "out": "/nix/store/rvp7qlpf5jqvdckjy1afjb6aha6j8dxg-pkg-config-wrapper-0.29.2"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "simple-http-server",
+      "broken": false,
+      "derivation": "/nix/store/0z9cgjyyhxbhv80zjm4a0k0spillzvcr-simple-http-server-0.6.13.drv",
+      "description": "Simple HTTP server in Rust",
+      "install_id": "simple-http-server",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "simple-http-server-0.6.13",
+      "pname": "simple-http-server",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T04:37:35.560162Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.13",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/rjknb9pflab4zfhcd4zzy1idb210ndsf-simple-http-server-0.6.13"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "simple-http-server",
+      "broken": false,
+      "derivation": "/nix/store/ff9jan9m2fw1kvs90nni5gff1khi65ca-simple-http-server-0.6.13.drv",
+      "description": "Simple HTTP server in Rust",
+      "install_id": "simple-http-server",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "simple-http-server-0.6.13",
+      "pname": "simple-http-server",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:07:36.327695Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.13",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/hapsnd7fc843bh6a405slpwj2i1gdrfq-simple-http-server-0.6.13"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "simple-http-server",
+      "broken": false,
+      "derivation": "/nix/store/qiw1w2wj815jz8i9s9rand7y7ih74516-simple-http-server-0.6.13.drv",
+      "description": "Simple HTTP server in Rust",
+      "install_id": "simple-http-server",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "simple-http-server-0.6.13",
+      "pname": "simple-http-server",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T05:35:14.375649Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.13",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/axrp8pph69fpwdffh06qwx6h73j2s17n-simple-http-server-0.6.13"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "simple-http-server",
+      "broken": false,
+      "derivation": "/nix/store/8z64cwbgvwdbxbgiah2bg7c7pqyxgmpw-simple-http-server-0.6.13.drv",
+      "description": "Simple HTTP server in Rust",
+      "install_id": "simple-http-server",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "name": "simple-http-server-0.6.13",
+      "pname": "simple-http-server",
+      "rev": "00c21e4c93d963c50d4c0c89bfa84ed6e0694df2",
+      "rev_count": 940249,
+      "rev_date": "2026-02-04T09:32:58Z",
+      "scrape_date": "2026-02-06T06:08:07.540907Z",
+      "stabilities": [
+        "staging",
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "0.6.13",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/i6h4s8428s7p8bdkwz7lcmlmspbzjpcd-simple-http-server-0.6.13"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
