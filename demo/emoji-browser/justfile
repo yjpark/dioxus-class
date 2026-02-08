@@ -1,19 +1,33 @@
-serve:
-    dx serve --addr 0.0.0.0
-
-release:
-    dx build --release
-
-npm-install:
-    cd css && npm install
-
-build-classes:
+# Build all CSS classes and generate tailwind.css
+build:
     DIOXUS_CLASS_BUILD_PATH="$PWD/css/classes.rs" cargo test --features "web build-classes"
     cargo build
     cd css && cargo build
 
+# Alias for build (kept for backward compatibility)
+build-classes: build
+
+# Build and start development server
+serve: build
+    dx serve --addr 0.0.0.0
+
+# Build release version
+release: build
+    dx build --release
+
+# Install npm dependencies for TailwindCSS
+npm-install:
+    cd css && npm install
+
+# Clear terminal buffer (tmux)
 clear-buffer:
     echo -e -n "\\0033c" && tmux clear-history
 
+# Watch for changes and rebuild classes automatically
 watch-classes:
-    cargo watch -w src/ -s "just clear-buffer && cargo rustc --lib -- -Awarnings && just build-classes"
+    cargo watch -w src/ -s "just clear-buffer && cargo rustc --lib -- -Awarnings && just build"
+
+# Clean build artifacts
+clean:
+    cargo clean
+    rm -f css/classes.rs css/classes.html
