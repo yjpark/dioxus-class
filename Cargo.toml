@@ -24,7 +24,7 @@ dioxus-class-macro = { path = "crates/dioxus-class-macro", version = "0.9.0" }
 dioxus-tailwindcss = { path = "crates/dioxus-tailwindcss", version = "0.9.0" }
 dioxus-daisyui = { path = "crates/dioxus-daisyui", version = "0.9.0" }
 
-dioxus = "0.7.0-rc.1"
+dioxus = "0.7.3"
 paste = "1.0.15"
 fehler = "1.0"
 

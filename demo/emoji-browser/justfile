@@ -1,5 +1,5 @@
 serve:
-    dx serve
+    dx serve --addr 0.0.0.0
 
 release:
     dx build --release
