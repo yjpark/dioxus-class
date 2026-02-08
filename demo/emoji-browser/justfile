@@ -12,8 +12,13 @@ serve: build
     dx serve --addr 0.0.0.0
 
 # Build release version
+# Note: wasm-opt may show SIGABRT error but build completes successfully
 release: build
     dx build --release
+    @echo "Copying CSS assets to release build..."
+    @mkdir -p ../../target/dx/emoji-browser/release/web/public/assets/css
+    @cp assets/css/tailwind.css ../../target/dx/emoji-browser/release/web/public/assets/css/
+    @echo "✓ Release build complete: ../../target/dx/emoji-browser/release/web/public"
 
 # Install npm dependencies for TailwindCSS
 npm-install:

@@ -42,3 +42,10 @@ wasm-logger = "0.2.0"
 log = "0.4.22"
 dioxus-logger = "0.6.0"
 console_error_panic_hook = "0.1.7"
+
+# Cargo profile for release builds
+[profile.release]
+# Disable DWARF debug info to prevent wasm-opt crashes
+debug = false
+# Strip debug symbols
+strip = true

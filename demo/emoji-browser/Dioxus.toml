@@ -25,8 +25,7 @@ script = []
 [web.resource.dev]
 # serve: [dev-server] only
 
-# [application.tools]
-
-# use binaryen.wasm-opt for output Wasm file
-# binaryen just will trigger in `web` platform
-# binaryen = { wasm_opt = true }
+[application.tools.binaryen]
+# Disable wasm-opt to avoid SIGABRT crashes with DWARF debug symbols
+# See: https://github.com/WebAssembly/binaryen/issues/5782
+wasm_opt = false

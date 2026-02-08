@@ -48,6 +48,10 @@ dx serve --addr 0.0.0.0
 just release
 ```
 
+**Note**: You may see a `wasm-opt failed with status code signal: 6 (SIGABRT)` error during release builds. This is a known issue with wasm-opt and DWARF debug symbols, but the build will complete successfully. The error can be safely ignored as long as you see "Client build completed successfully!" at the end.
+
+If you want to avoid the error completely, you can manually optimize the WASM file after building without wasm-opt (though this is usually not necessary).
+
 ### Development Workflow
 ```bash
 # Watch for changes and auto-rebuild CSS (requires cargo-watch)
